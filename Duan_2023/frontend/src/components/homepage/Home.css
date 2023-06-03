@@ -1,0 +1,169 @@
+.homepage{
+    margin: auto;
+    width: 75%;
+}
+.background_img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: grid;
+    place-content: center;
+    margin: auto;
+}
+.discover{
+    margin: auto;
+    height: 150px;
+
+}
+.discover >h2{
+  font-weight: 900;
+  font-size: x-large;
+  margin: 6px;
+}
+.discover_sell{
+    float: left;
+}
+.discover_icon{
+    width: 70px;
+    height: 70px;
+    color: goldenrod;
+}
+.discover-edit{
+    float: left;
+    width: 30%;
+    padding-right: 40px;
+}
+.discover-edit >span {
+    font-size: xx-large;
+    color: black;
+    margin-left: 20px;
+}
+#menu-discover ul {
+    background: white;
+    list-style-type: none;
+    text-align: center;
+}
+#menu-discover li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+} 
+#menu-discover ul li a {
+    text-decoration: none;
+    color: black;
+    display:block ;
+    text-align: left;
+    font-weight: 400;
+    font-size: larger;
+}
+#menu-discover ul li a:hover {
+    background: #f1c8c8;
+    color: #0C0A0A;
+}
+#menu-discover ul li > .sub-menu-discover {
+    display: none;
+    position: absolute;
+}
+#menu-discover li {
+    position: relative;
+}
+.sub-menu-discover {
+    display: none;
+    position: absolute;
+}
+#menu-discover ul li:hover .sub-menu-discover {
+    display: block;
+}
+.sell-bds >h2{
+  font-weight: 900;
+  font-size: x-large;
+  margin: 6px;
+}
+.rent-bds >h2{
+  font-weight: 900;
+  font-size: x-large;
+  margin: 6px;
+}
+.product-sell{
+    border: 1px solid black;
+    height: 540px;
+    width: 24%;
+    display:inline-block;
+    margin: 5px;
+    color: black;
+  }
+.product-sell :hover{
+  cursor: pointer;
+  box-shadow:2px #0C0A0A;
+  background-color: honeydew;
+}
+.img-bds{
+    background-color: aqua;
+    width: 100%;
+    height: 300px;
+}
+.bds-icon{
+  width: 30px;
+  height: 30px;
+  margin-top: 16px;
+  margin-left: 4px;
+}
+.title-bds{
+  width: 100%;
+  height: 70px;
+}
+.title-bds >h2{
+  color: red;
+  float: left;
+  font-size: larger;
+  white-space: nowrap; 
+  width: 100%; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.title-bds >h2:hover{
+  overflow: visible;
+  width: 100%;
+  white-space:normal ;
+}
+.area-bds{
+  width: 100%;
+  height: 40px;
+}
+.area-bds >span{
+  margin-left: 4px;
+  float: left;
+  font-size: larger;
+}
+.price-bds{
+  width: 100%;
+  height: 40px;  
+}
+.price-bds >span{
+  margin-left: 4px;
+  float: left;
+  font-size: larger;
+  color: red;
+}
+.address-bds{
+  width: 100%;
+  height: 70px;  
+  text-align: left;
+}
+.address-bds > span{
+  margin-left: 4px;
+  float: left;
+  font-size: larger;
+  white-space: nowrap; 
+  width: 98%; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.address-bds > span:hover{
+  overflow: visible;
+  width: 98%;
+  white-space:normal ;
+}

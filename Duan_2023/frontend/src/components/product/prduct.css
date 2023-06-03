@@ -1,0 +1,364 @@
+
+.product{
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+
+
+}
+
+.product_infor{
+    margin-left: 20%;
+    width: 45%;
+    height: auto;
+    display: inline-block;
+    float: left;
+    margin-top: 4px;
+}
+.product-upload-img{
+    width: full;
+    height: 640px;
+    border: 1px solid black;
+}
+.product-upload-mini-img{
+    cursor: pointer;
+    float: left;
+    display: inline-flex;
+    width: 100%;
+
+    position: relative;
+    border-top: 1px solid #000;
+}
+.image-product{
+    max-width: 100%;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    image-rendering:crisp-edges;
+    padding: 2px;
+}
+.image-product-mini{
+    max-width: 160px;
+    max-height: 110px;
+    width: auto;
+    height: auto;
+    margin: auto;
+
+   
+}
+.size-img{
+    width: 160px;
+    height: 120px;
+    border: 1px solid grey;  
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 8px;
+    border-radius: 4px;
+    padding: 4px;   
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip; 
+}
+.product_features{
+    width: 100%;
+    margin-top: 2px;
+    
+    background-color:white;
+    height: 200px;
+    float: left;
+    border: 1px solid rgb(170, 167, 167);
+}
+.product_features  >h2 {
+    font-size: x-large;
+    float: left;
+    font-weight: 600;
+    margin-left: 8px;
+
+}
+.product-address{
+    float: left;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 12px;
+    border-bottom: 1px solid rgb(170, 167, 167);
+
+    
+}
+.product-address >span{
+    float: left;
+    font-size: larger;
+    margin: 4px 0;
+    margin-left: 8px;
+}
+.product-price{
+    float: left;
+    height: 30px;
+    width: 50%;
+    margin-top: 12px;
+}
+.product-price >span{
+    float: left;
+    font-size: larger;
+    margin-left: 8px;
+}
+.product-area{
+    float: left;
+    height: 30px;
+    width: 50%;
+    margin-top: 12px;
+}
+.product-area >span{
+    float: left;
+    font-size: larger;
+}
+.icon{
+    width: 40px;
+    height: 20px;
+    display: block;
+    margin-left: 8px;
+ 
+    
+    float: left;
+}
+
+.product_details{
+    border: 1px solid grey;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: white;
+    display: block;
+    float: left;
+    width: 100%;
+    height:auto;
+}
+.details{
+    width: 100%;
+    height: 50px;
+    padding: 4px;
+    border-top: 1px solid rgb(130, 128, 128);
+}
+.product-details-mini{
+    width: 50%;
+    float: left;
+    display: block;
+
+}
+.details >span{
+    margin-left: 16px;
+    font-size: larger;
+    text-align: left;
+    float: left;
+}
+.product_details >h2{
+    margin-left: 12px;
+    margin-top: 8px;
+    font-size: x-large;
+    
+}
+.detail-data{
+    margin-left: 8px;
+}
+.product_details >h3{
+    margin-left: 12px;
+    margin-top: 8px;
+}
+.product-content{
+    width: 100%;
+    height: auto;
+    border: 1px solid grey;
+    display: block;
+    float: left;
+}
+.content-product{
+    font-size: larger;
+}
+
+.imgupload{
+    width: 160px;
+    height: 120px;
+    margin: 8px;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    padding: 0.5rem;
+    backgroundColor: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.seller_infor{
+    display: inline-block;
+    width: 20%;
+    height: auto;
+    margin-left: 16px;
+    border: 1px solid black;
+    margin-top: 4px;
+}
+.seller_infor >span{
+    font-size:larger;
+    margin-left: 16px;
+}
+.seller-contact{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-color: white;
+}
+.icon-seller-name{
+    width: 60px;
+    height: 40px;
+}
+.icon-seller-name >span{
+    margin-left: 20px;
+    font-size: larger;
+    color: red;
+}
+.icon-seller{
+    width: 40px;
+    height: 30px;
+}
+.seller-telephone{
+    width: 95%;
+    height: 40px;
+    background-color:green;
+    color: white;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.seller-telephone:hover{
+    color: red;
+}
+.seller-telephone >span{
+   font-size:larger;
+   margin-left: 16px;
+}
+.icon-seller{
+    width: 20px;
+    height: 25px;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.seller-chat{
+    border: 1px solid green;
+    width: 95%;
+    height: 40px;
+    color:green ;
+    margin-top: 14px;
+    margin-left: 8px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.seller-chat >span{
+    font-size:larger;
+    margin-left: 16px;
+}
+.help >span{
+    font-size:larger;
+    margin-left: 16px;
+    margin-right: 8px;
+}
+
+.question{
+    background-color: aquamarine;
+    margin-left: 8px;
+    width: 95%;
+    height: 40px;
+    margin-bottom: 16px;
+    font-size:medium;
+}
+
+.product-title{
+    white-space: pre-line;	
+    text-align: left;
+
+}
+
+.seller-img{
+    border: 1px solid red;
+    width: 100px;
+    height:100px;
+    border-radius: 80px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.seller-name{
+    font-size: larger;
+    color: coral;
+    font-weight:500;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.seller-contact >h2{
+    font-size: larger;
+    font-weight: 400;
+    color: red;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+.help{
+    display: block;
+    width: 95%;
+    margin-left: 8px;
+}
+.report:hover{
+    background-color:rgba(255, 0, 0, 0.5);
+    cursor: pointer;
+}
+.support:hover{
+    cursor: pointer;
+    color: green;
+}
+.button-buynow{
+    border: 1px solid grey;
+    width: 95%;
+    height: 40px;
+    margin-top: 14px;
+    margin-left: 8px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.button-buynow:hover{
+    background-color: darkgoldenrod;
+    
+}
+.button-buy{
+    margin-top: 8px;
+    display: block;
+}
+.button-buynow >span{
+    margin-left: 440px;
+    font-size: x-large;
+    color: red;
+}
+.product-deal{
+    border: 1px solid grey;
+    width: 95%;
+    height: auto;
+    margin-top: 14px;
+    margin-left: 8px;
+    margin-bottom: 12px;
+}
+.product-price-deal{
+    height: 40px;
+    width: 95%;
+    border: 1px solid grey;
+    margin: 4px;
+}
+.price-want-to-buy{
+    height: 40px;
+    width: 95%;
+    border: 1px solid grey;
+    margin: 4px;
+
+}
+.box-product-deal{
+    width: 100%;
+    height: 100%;
+    
+}
